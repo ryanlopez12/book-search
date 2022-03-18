@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-   "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "watch": "nodemon server.js"
   },
   "keywords": [],
