@@ -19,7 +19,6 @@ const SavedBooks = () => {
 
   console.log(userData)
 
-  
   const handleDeleteBook = async (bookId) => {
     const token = Auth.loggedIn() ? Auth.getToken() : null;
 
@@ -32,13 +31,11 @@ const SavedBooks = () => {
         variables: {bookId}
       });
 
-      
       removeBookId(bookId);
     } catch (err) {
       console.error(err);
     }
   };
-
 
   if (loading) {
     return <h2>LOADING...</h2>;
@@ -67,7 +64,7 @@ const SavedBooks = () => {
                   <p className='small'>Authors: {book.authors}</p>
                   <Card.Text>{book.description}</Card.Text>
                   <Button className='btn-block btn-danger' onClick={() => handleDeleteBook(book.bookId)}>
-                    Delete this Book!
+                    Delete It!
                   </Button>
                 </Card.Body>
               </Card>
