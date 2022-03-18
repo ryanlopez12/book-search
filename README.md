@@ -1,10 +1,10 @@
 # Book Search 1.1
 
-# Description
+## Description
 
 Book Search 1.1 is a all in one search engine for books of all types.  Users can create an account, log in, search for books, add them to their account, or delete them too!  Your one single app for organizing all your favorite books, or maybe keeping track of your personal physical library at home!
 
-# Table of Contents
+## Table of Contents
 
 * [User Story](#user-story)
 
